@@ -14,7 +14,7 @@ module.exports = {
     // 后缀名自动补全,当导入文件的时候可以省略后缀名不写
     extensions: ['.js', '.vue'],
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      '@src': path.resolve(__dirname, './src'),
       '@images': path.resolve(__dirname, './src/assets/images')
     }
   },

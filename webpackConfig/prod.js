@@ -66,14 +66,14 @@ module.exports = merge(baseConfig, {
         //   chunks: 'all',
         //   enforce: true,
         // },
-        common: {
-          name: 'chunk-common',
-          minChunks: 2,
-          minSize: 0,
-          priority: -20,
-          chunks: 'initial',
-          reuseExistingChunk: true // 是否重用该chunk
-        }
+        // common: {
+        //   name: 'chunk-common',
+        //   minChunks: 2,
+        //   minSize: 0,
+        //   priority: -20,
+        //   chunks: 'initial',
+        //   reuseExistingChunk: true // 是否重用该chunk
+        // }
       }
     }
   },
